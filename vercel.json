@@ -1,13 +1,8 @@
 {
   "version": 2,
   "name": "canvas",
-  "functions": {
-    "cnv/pixel.js": {
-      "maxDuration": 60
-    }
-  },
   "rewrites": [
-    { "source": "/(.*)", "destination": "/cnv/pixel" }
+    { "source": "/(.*)", "destination": "/api/pixel" }
   ],
   "trailingSlash": false
 }

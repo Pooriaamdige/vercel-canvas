@@ -1,0 +1,8 @@
+{
+  "version": 0.0.1,
+  "name": "canvas",
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/cnv/pixel" }
+  ],
+  "trailingSlash": false
+}
